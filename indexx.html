@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degrade da silva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <style>
+        
+        *  {
+            margin: 0;
+            padding: 0;        
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: linear-gradient(#03031D 22%, #0C0D49 48%, #2A3B90 88% );           
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;           
+        }
+
+        h1 {         
+            font-size: 50px;           
+        } 
+
+        p {
+            font-size: 27px;             
+        }
+
+        main {
+            display: flex;
+            justify-content: center; 
+            position: relative;       
+        }
+
+        .permanent-marker-regular-1 {
+            font-family: "Permanent Marker", cursive;
+            font-size: 330px;
+            color: #000000;
+            text-shadow:#03031D 3px 3px 10px;
+        
+        }
+
+        .permanent-marker-regular-2 {
+            font-family: "Permanent Marker", cursive;
+            font-size: 330px;
+            color: #000000;
+            opacity: 38%;
+            position: absolute;
+            transform: scaleY(-1) translateX(10%);
+            top: 300px;         
+        }
+        
+    </style>
+</head>
+<body>
+<header>
+    
+    <h1>Gradient</h1>
+    <p>This is a simple page to demonstrate gradient.</p>
+
+</header>
+<!-- :c -->
+<main>
+    
+    <h1 class="permanent-marker-regular-1">A</h1>
+    <h1 class="permanent-marker-regular-2">A</h1>
+
+</main>  
+</body>
+</html>
